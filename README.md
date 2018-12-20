@@ -1,21 +1,11 @@
 # Bitcoin
 
-**TODO: Add description**
+Please refer [this](https://medium.com/p/63099d855b7/edit) medium blog for the code explanation.
 
-## Installation
+Please refer following [repo](https://github.com/prafful13/Mitbits_Cryptocurrency) and its readme for explanation to various bitcoin protocols and testing framework.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bitcoin` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:bitcoin, "~> 0.1.0"}
-  ]
-end
+## Execution instructions
+```sh
+$ mix deps.get
+$ mix run --no-halt
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/bitcoin](https://hexdocs.pm/bitcoin).
-
